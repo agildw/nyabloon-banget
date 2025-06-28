@@ -92,9 +92,9 @@
 								<li class="mr-4"><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
 								<li class="mr-4"><a href="javascript:void(0);" class="fab fa-pinterest-p"></a></li>
 							</ul>
-							<!-- open in new tab  to http://localhost:5173/logo=base64['image_3d] -->
+							
 							<!-- <a href="<?= site_url('preview/' . $product['slug']) . '?imageUrl=' . urlencode($product['thumbnail']) ?>" class="btn btnTheme btnPreview fwEbold text-white md-round py-3 px-4 py-md-3 px-md-4">Preview Design <i class="fas fa-eye ml-2"></i></a> -->
-							<a href="http://localhost:5173/?logo=<?= base64_encode($product['image_3d']) ?>" target="_blank" class="btn btnTheme btnPreview fwEbold text-white md-round py-3 px-4 py-md-3 px-md-4">Preview Design <i class="fas fa-eye ml-2"></i></a>
+							<a href="<?= $_ENV['3D_VIEWER_URL'] ?>/?logo=<?= base64_encode($product['image_3d']) ?>" target="_blank" class="btn btnTheme btnPreview fwEbold text-white md-round py-3 px-4 py-md-3 px-md-4">Preview Design <i class="fas fa-eye ml-2"></i></a>
 						</div>
 					</div>
 				</div>

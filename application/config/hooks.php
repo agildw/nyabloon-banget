@@ -24,3 +24,17 @@ $hook['pre_system'] = function() {
         echo 'Error loading .env file: ',  $e->getMessage();
     }
 };
+
+# CORS Hook for API endpoints
+$hook['post_controller_constructor'] = function() {
+    // Set CORS headers for all requests
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization");
+    
+    // Handle preflight OPTIONS requests
+    if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+        header("HTTP/1.1 200 OK");
+        exit();
+    }
+};
