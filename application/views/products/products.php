@@ -1,28 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php $this->load->view('partials/head', ['title' => 'Products - Nyabloon Banget']); ?>
 <head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the Compatible of your site -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the page title -->
-	<title>Botanical - HTML5 Ecommerce Template</title>
-	<!-- include the site Google Fonts stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CRoboto:300,400,500,700,900&display=swap" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- include the site fontawesome stylesheet -->
-	<link rel="stylesheet" href="css/fontawesome.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<!-- include theme plugins setting stylesheet -->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- include theme color setting stylesheet -->
-	<link rel="stylesheet" href="css/color.css">
-	<!-- include theme responsive setting stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
-    <base href="<?= base_url(); ?>">
 
 	<style>
 		#pagination button {
@@ -141,7 +120,7 @@
 							</section>
 					
 							<!-- widget -->
-							<section class="widget mb-9">
+							<!-- <section class="widget mb-9">
 								<h3 class="headingVII fwEbold text-uppercase mb-6">Filter by price</h3>
 								<form action="javascript:void(0);" class="filter-ranger-form">
 									<div id="slider-range"></div>
@@ -152,7 +131,7 @@
 										<p id="amount" class="mb-0"></p>
 									</div>
 								</form>
-							</section>
+							</section> -->
 							
 						</aside>
 					</div>

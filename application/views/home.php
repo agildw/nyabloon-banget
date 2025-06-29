@@ -1,31 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the Compatible of your site -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the page title -->
-	<title>Botanical - HTML5 Ecommerce Template</title>
-	<!-- include the site Google Fonts stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CRoboto:300,400,500,700,900&display=swap" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- include the site fontawesome stylesheet -->
-	<link rel="stylesheet" href="css/fontawesome.css">
-	<!-- include the site stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<!-- include theme plugins setting stylesheet -->
-	<link rel="stylesheet" href="css/plugins.css">
-	<!-- include theme color setting stylesheet -->
-	<link rel="stylesheet" href="css/color.css">
-	<!-- include theme responsive setting stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
-	<!-- <base href="<?= base_url(); ?>/assets"> -->
-	<base href="<?= base_url(); ?>">
-
-</head>
+<?php $this->load->view('partials/head'); ?>
 <body>
 	<!-- pageWrapper -->
 	<div id="pageWrapper">
@@ -94,7 +69,7 @@
 										>Store</a>
 									</li>
 									<li class="nav-item">
-										<a class="nLogo" href="<?= site_url('/'); ?>"><img src="images/logo.png" alt="Botanical" class="img-fluid"></a>
+										<a class="nLogo" href="<?= site_url('/'); ?>"><img src="images/logo.png" alt="Nyabloon" class="img-fluid"></a>
 									</li>
 									<li class="nav-item">
 										<a class="d-block" href="<?= site_url('/about'); ?>">About</a>
@@ -106,7 +81,7 @@
 							</div>
 						</nav>
 						<div class="logo">
-							<a href="home.html"><img src="images/logo.png" alt="Botanical" class="img-fluid"></a>
+							<a href="home.html"><img src="images/logo.png" alt="Nyabloon" class="img-fluid"></a>
 						</div>
 					</div>
 				</div>
@@ -275,7 +250,7 @@
 							<span class="icon icon-van"></span>
 							<div class="alignLeft pl-2">
 								<strong class="headingV fwEbold d-block mb-1">Free shipping order</strong>
-								<p class="m-0">On orders over  $100</p>
+								<p class="m-0">On orders over  Rp100K</p>
 							</div>
 						</div>
 					</div>
@@ -312,7 +287,6 @@
 				</div>
 			</div>
 			<div class="container-fluid px-xl-20 px-lg-14">
-				<!-- subscribeSecBlock -->
 				<section class="subscribeSecBlock bgCover col-12 pt-xl-24 pb-xl-12 pt-lg-20 pt-md-16 pt-10 pb-md-8 pb-5" style="background-color: #f5f5f5;">
 					<header class="col-12 mainHeader mb-sm-9 mb-6 text-center">
 						<h1 class="headingIV playfair fwEblod mb-4">Subscribe Our Newsletter</h1>

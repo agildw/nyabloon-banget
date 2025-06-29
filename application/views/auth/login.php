@@ -1,29 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-<!-- set the encoding of your site -->
-<meta charset="utf-8">
-	<!-- set the Compatible of your site -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the page title -->
-	<title>Botanical - HTML5 Ecommerce Template</title>
-	<!-- include the site Google Fonts stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CRoboto:300,400,500,700,900&display=swap" rel="stylesheet">
-	
-
-	<link rel="stylesheet" href="<?= base_url(); ?>/css/bootstrap.css">
-	<link rel="stylesheet" href="<?= base_url(); ?>/css/fontawesome.css">
-	<link rel="stylesheet" href="<?= base_url(); ?>/style.css">
-	<link rel="stylesheet" href="<?= base_url(); ?>/css/plugins.css">
-	<link rel="stylesheet" href="<?= base_url(); ?>/css/color.css">
-	<link rel="stylesheet" href="<?= base_url(); ?>/css/responsive.css">
-	<!-- set the shortcut icon -->
-	<!-- <base href="<?= base_url(); ?>/assets"> -->
-	<base href="<?= base_url(); ?>">	
-</head>
+<?php $this->load->view('partials/head', ['title' => 'Login - Nyabloon Banget']); ?>
 
 <body>
 
@@ -38,8 +16,8 @@
 				<div class="col-12 col-xl-9">
 					<!-- <img class="img-fluid rounded mb-4" loading="lazy" src="images/logo.png" width="245" height="80" alt="Botanic Logo">
 					<hr class="border-primary-subtle mb-4"> -->
-					<h2 class="h1 mb-4 text-light">Welcome to Botanical</h2>
-					<p class="lead mb-5 text-light">Discover our wide range of botanical products that bring nature closer to you.</p>
+					<h2 class="h1 mb-4 text-light">Welcome to Nyabloon Banget</h2>
+					<p class="lead mb-5 text-light">Custom T-shirts with Cool Designs</p>
 					<div class="text-endx">
 					<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-grip-horizontal text-light" viewBox="0 0 16 16">
 						<path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />

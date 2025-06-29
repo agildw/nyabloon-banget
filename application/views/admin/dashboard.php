@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php $this->load->view('admin/partials/head', ['title' => 'Dashboard - Botanic']) ?>
+<?php $this->load->view('admin/partials/head', ['title' => 'Dashboard - Nyabloon Banget']) ?>
 
 <body>
 <script src="assets/admin/static/js/initTheme.js"></script>

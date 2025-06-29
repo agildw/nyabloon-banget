@@ -6,7 +6,7 @@
          <div class="col-6 col-sm-2">
             <!-- mainLogo -->
             <div class="logo">
-               <a href="<?= site_url('/'); ?>"><img src="images/logo.png" alt="Botanical" class="img-fluid"></a>
+               <a href="<?= site_url('/'); ?>"><img src="images/logo.png" alt="Nyabloon Banget" class="img-fluid"></a>
             </div>
          </div>
          <div class="col-6 col-sm-7 col-lg-8 static-block">

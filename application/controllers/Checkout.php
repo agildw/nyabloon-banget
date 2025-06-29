@@ -73,12 +73,12 @@ class Checkout extends CI_Controller {
 
 
         $create_invoice_request = new Xendit\Invoice\CreateInvoiceRequest([
-            'external_id' => 'botanic-' . time(),
+            'external_id' => 'nyabloon-' . time(),
             'payer_email' => $email,
             'amount' => $subtotal,
             'invoice_duration' => 3600,
             'currency' => 'IDR',
-            'description' => 'Pembayaran pesanan di Botanic',
+            'description' => 'Pembayaran pesanan di Nyabloon Banget',
             'success_redirect_url' => site_url('orders/' . $order_code),
             // items from cart
             'items' => array_map(function($item){
@@ -133,7 +133,7 @@ class Checkout extends CI_Controller {
     }
 
     private function generate_order_code(){
-        return 'botanic-' . time();
+        return 'nyabloon-' . time();
     }
     
 }
