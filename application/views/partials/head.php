@@ -20,5 +20,8 @@
 	<link rel="stylesheet" href="<?= base_url(); ?>css/color.css">
 	<!-- include theme responsive setting stylesheet -->
 	<link rel="stylesheet" href="<?= base_url(); ?>css/responsive.css">
+
+	<!-- load favicon -->
+	<link rel="shortcut icon" href="<?= base_url('images/favicon.ico'); ?>" type="image/x-icon">
 	<base href="<?= base_url(); ?>">
 </head> 
