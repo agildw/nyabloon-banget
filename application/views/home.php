@@ -217,7 +217,7 @@
 				<header class="col-12 mainHeader mb-7 text-center">
 					<h1 class="headingIV playfair fwEblod mb-4">Featured Product</h1>
 					<span class="headerBorder d-block mb-md-5 mb-3"><img src="images/hbdr.png" alt="Header Border" class="img-fluid img-bdr"></span>
-					<p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p>Explore our latest products and find the perfect one for you.</p>
 				</header>
 				<div class="col-12 p-0 overflow-hidden d-flex flex-wrap">
 
