@@ -56,6 +56,7 @@ class Admin extends CI_Controller
         $quantity = $this->input->post('quantity');
         $slug = $this->input->post('slug');
         $description = $this->input->post('description');
+        $thumbnail = $this->input->post('thumbnail');
 
 
         $data = [
@@ -63,7 +64,8 @@ class Admin extends CI_Controller
             'price' => $price,
             'quantity' => $quantity,
             'description' => $description,
-            'slug' => $slug
+            'slug' => $slug,
+            'thumbnail' => $thumbnail
         ];
 
         $result = $this->product->update_product($id, $data);
