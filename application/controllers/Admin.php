@@ -57,6 +57,7 @@ class Admin extends CI_Controller
         $slug = $this->input->post('slug');
         $description = $this->input->post('description');
         $thumbnail = $this->input->post('thumbnail');
+        $image_3d = $this->input->post('image_3d');
 
 
         $data = [
@@ -65,7 +66,8 @@ class Admin extends CI_Controller
             'quantity' => $quantity,
             'description' => $description,
             'slug' => $slug,
-            'thumbnail' => $thumbnail
+            'thumbnail' => $thumbnail,
+            'image_3d' => $image_3d
         ];
 
         $result = $this->product->update_product($id, $data);
@@ -141,6 +143,7 @@ class Admin extends CI_Controller
     $slug = $this->input->post('slug');
     $description = $this->input->post('description');
     $thumbnail = $this->input->post('thumbnail');  // Ambil data URL thumbnail
+    $image_3d = $this->input->post('image_3d');
 
     // Debug: Menampilkan data yang akan dimasukkan ke dalam database
     echo '<pre>';
@@ -150,7 +153,8 @@ class Admin extends CI_Controller
         'quantity' => $quantity,
         'description' => $description,
         'slug' => $slug,
-        'thumbnail' => $thumbnail  // Menampilkan thumbnail
+        'thumbnail' => $thumbnail,
+        'image_3d' => $image_3d
     ]);
     echo '</pre>';
 
@@ -161,7 +165,8 @@ class Admin extends CI_Controller
         'quantity' => $quantity,
         'description' => $description,
         'slug' => $slug,
-        'thumbnail' => $thumbnail  // Menambahkan URL thumbnail ke data produk
+        'thumbnail' => $thumbnail,
+        'image_3d' => $image_3d
     ];
 
     // Debug: Menampilkan data yang akan dimasukkan ke database sebelum diproses

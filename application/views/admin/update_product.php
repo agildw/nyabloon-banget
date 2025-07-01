@@ -81,6 +81,13 @@
                                     placeholder="Thumbnail" value="<?= $product['thumbnail'] ?>"/>
                               </div>
                               <div class="col-md-4">
+                                 <label for="image_3d">Logo Image (For 3D Model)</label>
+                              </div>
+                              <div class="col-md-8 form-group">
+                                 <input type="text" id="image_3d" class="form-control" name="image_3d"
+                                    placeholder="Logo" value="<?= $product['image_3d'] ?>"/>
+                              </div>
+                              <div class="col-md-4">
                                  <label for="description">Description</label>
                               </div>
                               <div class="col-md-8 form-group">
