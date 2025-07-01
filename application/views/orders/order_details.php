@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $this->load->view('partials/head', ['title' => 'Order Details - Nyabloon Banget']); ?>
+<head>
+	<style>
+        /* Footer positioning styles */
+        html, body {
+            height: 100%;
+        }
+        
+        #pageWrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        #footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
 <body>
 	<!-- pageWrapper -->
 	<div id="pageWrapper">
