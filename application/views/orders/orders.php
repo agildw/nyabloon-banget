@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php $this->load->view('partials/head', ['title' => 'Orders - Nyabloon Banget']); ?>
 <head>
-	<!-- set the encoding of your site -->
-	<meta charset="utf-8">
-	<!-- set the Compatible of your site -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- set the page title -->
-	<title>Orders</title>
-	<!-- include the site Google Fonts stylesheet -->
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CRoboto:300,400,500,700,900&display=swap" rel="stylesheet">
-	<!-- include the site bootstrap stylesheet -->
-	<link rel="stylesheet" href="<?= base_url('css/bootstrap.css') ?>">
-    <!-- include the site fontawesome stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('css/fontawesome.css') ?>">
-    <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('style.css') ?>">
-    <!-- include theme plugins setting stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('css/plugins.css') ?>">
-    <!-- include theme color setting stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('css/color.css') ?>">
-    <!-- include theme responsive setting stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
-    <base href="<?= base_url(); ?>">
-
 	<style>
+        /* Footer positioning styles */
+        html, body {
+            height: 100%;
+        }
+        
+        #pageWrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        #footer {
+            margin-top: auto;
+        }
+        
+        /* Existing order styles */
         .order-card {
             border: 1px solid #ddd;
             border-radius: 8px;
